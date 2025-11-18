@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        const name = document.getElementById("name").value;
+        const name = document.getElementById("username").value;
         const email = document.getElementById("email").value;
         const message = document.getElementById("message").value;
 
